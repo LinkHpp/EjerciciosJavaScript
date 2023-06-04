@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <textarea id = divN></textarea>
+    <form>
+
+        <div id = "divMn">
+
+            <div id="div1">
+                <label id="LBLcolor">Color de letra:</label>
+                <input type="text" id = "colorlt" placeholder="FF00AA">
+                <img id = "button1" src="arrow.png">
+            </div>
+            <div id ="div2">
+                <label id="LBLcolor">Color de fondo:</label>
+                <input type="text" id = "colorbg" placeholder="AAFF00">
+                <img id = "button2" src="arrow.png">
+            </div>
+            <div id = "div3"><label id="LBLcolor">Tamaño:</label>
+                <input type="text" id = "size" placeholder="10">
+                <img id = "button3" src="arrow.png">
+            </div>
+            <div id = "div4">
+                <label id="LBLcolor">Negrita:</label>
+                <input type="checkbox" id = "bold" onclick="cambiaNegrita()">
+                <label id="LBLcolor">Italica:</label>
+                <input type="checkbox" id = "italia" onclick="cambiaItalia()">
+                <label id="LBLcolor">Subrayado:</label>
+                <input type="checkbox" id = "subra" onclick="cambiaSubra()">
+            </div>
+        
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>

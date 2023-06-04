@@ -1,0 +1,36 @@
+img {
+    width: 25px;
+    height: 25px;
+    border: 2px gray solid;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#LBLcolor{
+    color: white;
+}
+
+#divMn{
+    border: 2px black solid;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(1, 119, 158);
+    float: left;
+
+}
+
+#div1, #div2, #div3{
+    margin: 5px 5px;
+}
+
+#divN{
+    width: 260px;
+    height: 150px;
+    margin: 5px 5px;
+    border: 2px gray solid;
+    float: left;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
